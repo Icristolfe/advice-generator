@@ -51,7 +51,7 @@ export const Container = styled.div`
 
 export const AdviceContainer = styled.div`
     height: 65%;
-    width: 55%;
+    width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -63,8 +63,8 @@ export const AdviceContainer = styled.div`
 
     .divider {
       position: relative;
-      top: 38%;
-      width: 80%;
+      top: 53%;
+      width: 50%;
     }
 
     button {
@@ -79,12 +79,8 @@ export const AdviceContainer = styled.div`
       flex-direction: column;
       justify-content: center;    
       position: relative;
-      top: 50%;
+      top: 64%;
     }
-
-
-   
-   
 
     p{
       color: hsl(150, 100%, 55%);
@@ -103,7 +99,7 @@ export const AdviceContainer = styled.div`
     @media (min-height: 200px) and (max-height: 479px) {
       .containerItems {
         height: 50%;
-        width: 50%;
+        width: 100vw;
       }
 
       p {
@@ -126,6 +122,10 @@ export const AdviceContainer = styled.div`
 
 
     @media (min-height: 480px) and (max-height: 599px) {
+      .containerItems {
+        height: 55%;
+        width: 100vw;
+      }
       p {
         font-size: 10px;
         margin-bottom: 15px;
@@ -134,54 +134,16 @@ export const AdviceContainer = styled.div`
         font-size: 18px
       }
       .divider {
-      top: 30%;
-    }
-    button {
-      top: 40%;
-      width: 40px;
-      height: 40px;
-    }
-    }
-
-
-    @media (min-height: 600px) and (max-height: 800px) {
-      .containerItems {
-        height: 50%;
-        width: 80%;
-      }
-      p {
-        font-size: 10px;
-        margin-bottom: 20px;
-      }
-      h1 {
-        font-size: 20px
-      }
-      .divider {
-      top: 24%;
-    }
-    button {
-      top: 34%;
-      width: 40px;
-      height: 40px;
-    }
-    }
-    @media (min-height: 801px) and (max-height: 1024px) {
-      p {
-        font-size: 15px;
-        margin-bottom: 20px;
-      }
-      h1 {
-        font-size: 20px
-      }
-      .divider {
-      top: 47%;
+      top: 50%;
     }
     button {
       top: 61%;
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
     }
     }
 
+
+    
     
 `
