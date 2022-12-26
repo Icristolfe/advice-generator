@@ -8,18 +8,6 @@ export const Container = styled.div`
     justify-content: center;
     flex-direction: column;
     background-color: hsl(218, 23%, 16%);
-     
-    
-
-    button:hover {
-      opacity: 0.8
-    }
-
-    button:active {
-      opacity: 0.6
-    }
-
-    
 
     .c-loader {
   animation: is-rotating 1s infinite;
@@ -50,8 +38,8 @@ export const Container = styled.div`
 `
 
 export const AdviceContainer = styled.div`
-    height: 65%;
-    width: 100vw;
+    width: 375px;
+    height: 550px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -59,12 +47,12 @@ export const AdviceContainer = styled.div`
     border-radius: 10px;
     color: hsl(193, 38%, 86%);
     background: hsl(217, 19%, 24%);
-    padding-top: 40px;
+    padding-top: 25px;
 
     .divider {
-      position: relative;
-      top: 50%;
-      width: 50%;
+      position: absolute;
+      top: 78%;
+      width: 30%
     }
 
     button {
@@ -78,9 +66,19 @@ export const AdviceContainer = styled.div`
       align-items: center;
       flex-direction: column;
       justify-content: center;    
-      position: relative;
-      top: 58%;
+      position: absolute;
+      top: 86%;
+    }     
+    
+
+    button:hover {
+      opacity: 0.7
     }
+
+    button:active {
+      opacity: 0.5
+    }
+
 
     p{
       color: hsl(150, 100%, 55%);
@@ -88,7 +86,7 @@ export const AdviceContainer = styled.div`
       letter-spacing: 3px;
       font-weight: 800;
       font-size: 16px;
-      margin-top: 18px;
+      margin-bottom: 40px;
     }
 
     h1 {
@@ -96,54 +94,6 @@ export const AdviceContainer = styled.div`
         font-family: 'Manrope';
     }
 
-    @media (min-height: 200px) and (max-height: 479px) {
-      .containerItems {
-        height: 50%;
-        width: 100vw;
-      }
 
-      p {
-        font-size: 8px;
-        margin-bottom: 15px;
-      }
-      h1 {
-        font-size: 12px
-      }
-      .divider {
-      top: 10%;
-      width: 90%;
-    }
-    button {
-      top: 23%;
-      width: 40px;
-      height: 40px;
-    }
-    }
-
-
-    @media (min-height: 480px) and (max-height: 599px) {
-      .containerItems {
-        height: 55%;
-        width: 100vw;
-      }
-      p {
-        font-size: 10px;
-        margin-bottom: 15px;
-      }
-      h1 {
-        font-size: 18px
-      }
-      .divider {
-      top: 50%;
-    }
-    button {
-      top: 61%;
-      width: 40px;
-      height: 40px;
-    }
-    }
-
-
-    
     
 `
