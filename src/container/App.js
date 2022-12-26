@@ -37,7 +37,6 @@ function App() {
             <div className="containerItems" >
             <h1>“{advice.advice}”</h1>
             </div>
-            <img className="divider" src={Divider} alt="divider" />
             <button onClick={newAdvice}><img src={ButtonIcon} alt="button" /></button>
           </AdviceContainer>
           

@@ -49,11 +49,6 @@ export const AdviceContainer = styled.div`
     background: hsl(217, 19%, 24%);
     padding-top: 25px;
 
-    .divider {
-      position: absolute;
-      top: 78%;
-      width: 40%
-    }
 
     button {
       width: 70px;
