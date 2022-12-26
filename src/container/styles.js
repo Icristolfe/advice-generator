@@ -158,7 +158,7 @@ export const AdviceContainer = styled.div`
     }
     }
 
-    @media (min-width: 769px) {
+    @media (min-width: 801px) {
       p {
         font-size: 14px;
         margin-bottom: 35px;
