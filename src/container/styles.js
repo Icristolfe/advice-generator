@@ -100,7 +100,7 @@ export const AdviceContainer = styled.div`
         font-family: 'Manrope';
     }
 
-    @media (min-width: 200px) and (max-width: 479px) {
+    @media (min-height: 200px) and (max-height: 479px) {
       .containerItems {
         height: 50%;
         width: 50%;
@@ -114,18 +114,18 @@ export const AdviceContainer = styled.div`
         font-size: 12px
       }
       .divider {
-      top: 0%;
+      top: 10%;
       width: 90%;
     }
     button {
-      top: 8%;
+      top: 23%;
       width: 40px;
       height: 40px;
     }
     }
 
 
-    @media (min-width: 480px) and (max-width: 599px) {
+    @media (min-height: 480px) and (max-height: 599px) {
       p {
         font-size: 10px;
         margin-bottom: 15px;
@@ -134,15 +134,17 @@ export const AdviceContainer = styled.div`
         font-size: 18px
       }
       .divider {
-      top: 0%;
+      top: 30%;
     }
     button {
-      top: 10%;
+      top: 40%;
+      width: 40px;
+      height: 40px;
     }
     }
 
 
-    @media (min-width: 600px) and (max-width: 800px) {
+    @media (min-height: 600px) and (max-height: 800px) {
       p {
         font-size: 10px;
         margin-bottom: 20px;
@@ -151,32 +153,31 @@ export const AdviceContainer = styled.div`
         font-size: 20px
       }
       .divider {
-      top: 0%;
+      top: 40%;
     }
     button {
-      top: 10%;
+      top: 47%;
+      width: 40px;
+      height: 40px;
     }
     }
-
-    @media (min-width: 801px) {
+    @media (min-height: 801px) and (max-height: 1024px) {
       p {
-        font-size: 14px;
-        margin-bottom: 35px;
+        font-size: 15px;
+        margin-bottom: 20px;
       }
       h1 {
-        font-size: 25px
+        font-size: 20px
       }
       .divider {
-      top: 0%;
+      top: 47%;
     }
     button {
-      top: 8%;
+      top: 61%;
+      width: 50px;
+      height: 50px;
     }
     }
 
-    .containerItems {
-      width: 55%;
-      height: 70%;
-
-    }
+    
 `
