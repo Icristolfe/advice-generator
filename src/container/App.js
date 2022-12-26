@@ -2,7 +2,6 @@
 import React, {useState, useEffect} from "react";
 import { api } from "../services/api";
 import { Container, AdviceContainer } from './styles'
-import Divider from '../assets/divider.svg'
 
 import ButtonIcon from '../assets/icon.svg'
 
@@ -33,7 +32,6 @@ function App() {
         
           <AdviceContainer className="containerItems" key={advice.id} >
             <p>ADVICE #{advice.id}</p>
-      
             <div className="containerItems" >
             <h1>“{advice.advice}”</h1>
             </div>
