@@ -100,6 +100,31 @@ export const AdviceContainer = styled.div`
         font-family: 'Manrope';
     }
 
+    @media (min-width: 200px) and (max-width: 479px) {
+      .containerItems {
+        height: 50%;
+        width: 50%;
+      }
+
+      p {
+        font-size: 8px;
+        margin-bottom: 15px;
+      }
+      h1 {
+        font-size: 12px
+      }
+      .divider {
+      top: 0%;
+      width: 90%;
+    }
+    button {
+      top: 8%;
+      width: 40px;
+      height: 40px;
+    }
+    }
+
+
     @media (min-width: 480px) and (max-width: 599px) {
       p {
         font-size: 10px;
