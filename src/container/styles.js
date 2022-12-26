@@ -145,6 +145,10 @@ export const AdviceContainer = styled.div`
 
 
     @media (min-height: 600px) and (max-height: 800px) {
+      .containerItems {
+        height: 50%;
+        width: 80%;
+      }
       p {
         font-size: 10px;
         margin-bottom: 20px;
