@@ -122,6 +122,7 @@ export const AdviceContainer = styled.div`
     @media (min-width: 600px) and (max-width: 767px) {
       p {
         font-size: 10px;
+        margin-bottom: 20px;
       }
       h1 {
         font-size: 20px
@@ -137,6 +138,7 @@ export const AdviceContainer = styled.div`
     @media (min-width: 769px) {
       p {
         font-size: 14px;
+        margin-bottom: 35px;
       }
       h1 {
         font-size: 25px
