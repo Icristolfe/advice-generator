@@ -158,10 +158,10 @@ export const AdviceContainer = styled.div`
         font-size: 20px
       }
       .divider {
-      top: 40%;
+      top: 24%;
     }
     button {
-      top: 47%;
+      top: 34%;
       width: 40px;
       height: 40px;
     }
