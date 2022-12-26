@@ -63,7 +63,7 @@ export const AdviceContainer = styled.div`
 
     .divider {
       position: relative;
-      top: 53%;
+      top: 50%;
       width: 50%;
     }
 
@@ -79,7 +79,7 @@ export const AdviceContainer = styled.div`
       flex-direction: column;
       justify-content: center;    
       position: relative;
-      top: 64%;
+      top: 58%;
     }
 
     p{
