@@ -142,7 +142,7 @@ export const AdviceContainer = styled.div`
     }
 
 
-    @media (min-width: 600px) and (max-width: 767px) {
+    @media (min-width: 600px) and (max-width: 800px) {
       p {
         font-size: 10px;
         margin-bottom: 20px;
