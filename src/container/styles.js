@@ -52,7 +52,7 @@ export const AdviceContainer = styled.div`
     .divider {
       position: absolute;
       top: 78%;
-      width: 30%
+      width: 40%
     }
 
     button {
@@ -67,7 +67,7 @@ export const AdviceContainer = styled.div`
       flex-direction: column;
       justify-content: center;    
       position: absolute;
-      top: 86%;
+      top: 85%;
     }     
     
 
