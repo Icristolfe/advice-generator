@@ -51,7 +51,7 @@ export const Container = styled.div`
 
 export const AdviceContainer = styled.div`
     height: 65%;
-    width: 65%;
+    width: 55%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -83,9 +83,7 @@ export const AdviceContainer = styled.div`
     }
 
 
-    .containerAdvice {
-      margin-top: 25px;
-    }
+   
    
 
     p{
@@ -147,12 +145,12 @@ export const AdviceContainer = styled.div`
       top: 0%;
     }
     button {
-      top: 10%;
+      top: 8%;
     }
     }
 
     .containerItems {
-      width: 100%;
+      width: 55%;
       height: 70%;
 
     }
