@@ -148,7 +148,6 @@ export const AdviceContainer = styled.div`
       .containerItems {
         height: 50%;
         width: 80%;
-        background: none;
       }
       p {
         font-size: 10px;
