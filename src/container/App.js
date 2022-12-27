@@ -30,12 +30,12 @@ function App() {
      {
       advice ? (
         
-          <AdviceContainer className="containerItems" key={advice.id} >
+          <AdviceContainer key={advice.id} >
             <p>ADVICE #{advice.id}</p>
-            <div className="containerItems" >
-            <h1>“{advice.advice}”</h1>
-            </div>
-            <button onClick={newAdvice}><img src={ButtonIcon} alt="button" /></button>
+            
+            <h2>“{advice.advice}”</h2>
+            
+            
           </AdviceContainer>
           
       
@@ -43,7 +43,7 @@ function App() {
         <div className="c-loader"></div>
         )
      }
-      
+      <button onClick={newAdvice}><img src={ButtonIcon} alt="button" /></button>
     </Container>
   );
 }

@@ -11,12 +11,33 @@ export const Container = styled.div`
 
     .c-loader {
   animation: is-rotating 1s infinite;
-  border: 6px solid #e5e5e5;
+  border: 6px solid hsl(217, 19%, 24%);
   border-radius: 50%;
-  border-top-color: #51d4db;
+  border-top-color: #00BFFF;
   height: 50px;
   width: 50px;
 }
+button {
+      width: 70px;
+      height: 70px;
+      background: #00BFFF;
+      border-radius: 50%;
+      cursor: pointer;
+      border: none;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;    
+    }     
+
+    button:hover {
+      opacity: 0.7
+    }
+
+    button:active {
+      opacity: 0.5
+    }
+
 
 @keyframes is-rotating {
   to {
@@ -32,14 +53,11 @@ export const Container = styled.div`
 }
 
 
-
-
-
 `
 
 export const AdviceContainer = styled.div`
     width: 375px;
-    height: 550px;
+    height: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -48,35 +66,11 @@ export const AdviceContainer = styled.div`
     color: hsl(193, 38%, 86%);
     background: hsl(217, 19%, 24%);
     padding-top: 25px;
-
-
-    button {
-      width: 70px;
-      height: 70px;
-      background: hsl(150, 100%, 66%);
-      border-radius: 50%;
-      cursor: pointer;
-      border: none;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;    
-      position: absolute;
-      top: 85%;
-    }     
-    
-
-    button:hover {
-      opacity: 0.7
-    }
-
-    button:active {
-      opacity: 0.5
-    }
+    margin-bottom: 30px;
 
 
     p{
-      color: hsl(150, 100%, 55%);
+      color: #00BFFF;
       font-size: 28px;
       letter-spacing: 3px;
       font-weight: 800;
@@ -84,9 +78,10 @@ export const AdviceContainer = styled.div`
       margin-bottom: 40px;
     }
 
-    h1 {
+    h2 {
         text-align: center;
         font-family: 'Manrope';
+        font-size: 20px;
     }
 
 
