@@ -35,7 +35,6 @@ function App() {
             
             <h2>“{advice.advice}”</h2>
             
-            
           </AdviceContainer>
           
       

@@ -45,13 +45,6 @@ button {
   }
 }
 
-@media (max-width: 869px) {
-    button {
-      position: absolute;
-      top: 420px;
-    }
-}
-
 
 `
 

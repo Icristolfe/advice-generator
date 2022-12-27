@@ -6,5 +6,6 @@ export default createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     outline: none;
+    background-color: hsl(218, 23%, 16%);
 }
 `
